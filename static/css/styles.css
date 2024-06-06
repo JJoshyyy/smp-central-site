@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    position: relative; /* Added position: relative */
+}
+
+header.banner {
+    width: 100%;
+    height: 50vh; /* Use 50% of the viewport height */
+    background: url('/static/assets/logo/background_banner.png') no-repeat center center;
+    background-size: cover;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    flex: 1; /* Added flex: 1 to expand and fill the remaining space */
+}
+
+.top-buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #282c34;
+}
+
+.top-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.top-buttons a:hover {
+    background-color: #5b6eae;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+p strong {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.discord-link,
+.partner-link,
+.home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.discord-link:hover,
+.partner-link:hover,
+.home-link:hover {
+    background-color: #5b6eae;
+}
+
+/* Add styles for the Partners page */
+.partners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three columns */
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.partner {
+    text-align: center;
+}
+
+.partner img {
+    width: 150px; /* Explicitly set the width of the images */
+    height: 150px; /* Explicitly set the height of the images */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.partner p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+/* Styles for the buttons */
+.top-buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #282c34;
+}
+
+/* Add styles for the Staff page */
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: 150px; /* Maintain aspect ratio */
+    width: 150px; /* Set a fixed width for uniform size */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+
