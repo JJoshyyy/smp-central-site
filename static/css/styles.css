@@ -15,7 +15,7 @@ body, html {
 
 header.banner {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     background: url('/static/assets/logo/background_banner.png') no-repeat center center;
     background-size: cover;
     background-color: #333;
