@@ -150,9 +150,15 @@ p strong {
     margin: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .members {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .members {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -167,7 +173,6 @@ p strong {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
 
 @keyframes slideInFromLeft {
     0% {
@@ -228,8 +233,6 @@ p strong {
 .slide-out-right {
     animation: slideOutToRight 0.5s forwards;
 }
-
-
 
 body {
     color: #555;
