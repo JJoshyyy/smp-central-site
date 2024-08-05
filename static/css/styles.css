@@ -1,3 +1,5 @@
+@import url('https://bootswatch.com/5/quartz/bootstrap.min.css');
+
 body, html {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body, html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
     overflow: hidden;
     position: relative;
 }
@@ -18,7 +20,7 @@ header.banner {
     height: 30vh;
     background: url('/static/assets/logo/background_banner.png') no-repeat center center;
     background-size: cover;
-    background-color: #333;
+    background-color: #343a40;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,14 +48,14 @@ header.banner img {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: #282c34;
+    background-color: #495057; 
     margin-top: 20px;
 }
 
 .top-buttons a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #7289da;
+    background-color: #17a2b8;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -61,25 +63,25 @@ header.banner img {
 }
 
 .top-buttons a:hover {
-    background-color: #5b6eae;
+    background-color: #138496; 
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
     margin-top: 0;
     font-size: 32px;
     font-family: 'Montserrat', Arial, sans-serif; 
 }
 
 p {
-    color: #666;
+    color: #212529; 
     font-size: 1.2em;
     font-size: 18px;
 }
 
 p strong {
     font-size: 1.5em;
-    color: #333;
+    color: #212529;
 }
 
 .discord-link,
@@ -87,7 +89,7 @@ p strong {
 .home-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #7289da;
+    background-color: #17a2b8; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -97,8 +99,7 @@ p strong {
 .discord-link:hover,
 .partner-link:hover,
 .home-link:hover {
-    background-color: #5b6eae;
-}
+    background-color: #138496; 
 
 .partners {
     display: grid;
@@ -120,7 +121,7 @@ p strong {
 
 .partner p {
     font-size: 1.2em;
-    color: #333;
+    color: #212529; 
     margin: 0;
 }
 
@@ -149,7 +150,7 @@ p strong {
 
 .member p {
     font-size: 1.2em;
-    color: #333;
+    color: #212529; 
     margin: 0;
 }
 
@@ -184,10 +185,18 @@ p strong {
     0% {
         transform: translateX(-100%);
         opacity: 0;
+        background-color: #343a40; 
+        color: #ffffff; 
+    }
+    50% {
+        background-color: #343a40; 
+        color: #ffffff;
     }
     100% {
         transform: translateX(0);
         opacity: 1;
+        background-color: #495057;
+        color: #ffffff; 
     }
 }
 
@@ -195,10 +204,18 @@ p strong {
     0% {
         transform: translateX(100%);
         opacity: 0;
+        background-color: #343a40; 
+        color: #ffffff; 
+    }
+    50% {
+        background-color: #343a40;
+        color: #ffffff; 
     }
     100% {
         transform: translateX(0);
         opacity: 1;
+        background-color: #495057; 
+        color: #ffffff; 
     }
 }
 
@@ -206,10 +223,18 @@ p strong {
     0% {
         transform: translateX(0);
         opacity: 1;
+        background-color: #495057; 
+        color: #ffffff;
+    }
+    50% {
+        background-color: #495057; 
+        color: #ffffff; 
     }
     100% {
         transform: translateX(-100%);
         opacity: 0;
+        background-color: #343a40; 
+        color: #ffffff;
     }
 }
 
@@ -217,10 +242,18 @@ p strong {
     0% {
         transform: translateX(0);
         opacity: 1;
+        background-color: #495057; 
+        color: #ffffff;
+    }
+    50% {
+        background-color: #495057;
+        color: #ffffff;
     }
     100% {
         transform: translateX(100%);
         opacity: 0;
+        background-color: #343a40;
+        color: #ffffff; 
     }
 }
 
@@ -241,25 +274,26 @@ p strong {
 }
 
 body {
-    color: #555;
+    color: #212529; 
 }
 
 header.banner h1 {
-    color: #fff; 
+    color: #ffffff; 
 }
 
 .top-buttons a {
-    background-color: #ff7f50; 
+    background-color: #17a2b8;
 }
 
 .top-buttons a:hover {
-    background-color: #ff6347;
+    background-color: #138496;
 }
 
 .partner p {
-    color: #777; 
+    color: #212529; 
 }
 
 .member p {
-    color: #777; 
+    color: #212529;
+}
 }
