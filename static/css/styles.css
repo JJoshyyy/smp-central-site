@@ -99,7 +99,7 @@ p strong {
 .discord-link:hover,
 .partner-link:hover,
 .home-link:hover {
-    background-color: #138496; 
+    background-color: #138496; }
 
 .partners {
     display: grid;
@@ -138,7 +138,12 @@ p strong {
     max-width: calc(25% - 20px);
     box-sizing: border-box;
     text-align: center;
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .member img {
     max-width: 100%;
@@ -295,5 +300,4 @@ header.banner h1 {
 
 .member p {
     color: #212529;
-}
 }
